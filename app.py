@@ -95,7 +95,7 @@ nome = obter_nome_do_registo(registo)
 # Apresentar na interface
 st.title("🌿FICA QUE COMPENSA")
 st.write(f"Local identificado: **{nome} ({registo})**")
-st.write("Por favor, introduza o seu e-mail para receber o vaucher em PDF.")
+st.write("Por favor, introduza o seu e-mail para receber o vaucher num documento PDF.")
 
 email = st.text_input("✉️ E-mail")
 
