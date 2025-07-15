@@ -93,9 +93,9 @@ registo = st.query_params.get("registo", "Desconhecido")
 nome = obter_nome_do_registo(registo)
 
 # Apresentar na interface
-st.title("📍 Check-in no Local")
-st.write(f"Local identificado: **{registo} – {nome}**")
-st.write("Por favor, introduz o teu e-mail para receberes o comprovativo em PDF.")
+st.title("🌿FICA QUE COMPENSA")
+st.write(f"Local identificado: **{nome} ({registo})**")
+st.write("Por favor, introduza o seu e-mail para receber o vaucher em PDF.")
 
 email = st.text_input("✉️ E-mail")
 
